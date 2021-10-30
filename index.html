@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<title>Recyclex</title>
+</head>
+<body>
+	<!--Sprite-->
+	<svg style="display: none;">
+		<symbol id="heart-icon" viewBox="0 0 19 19">
+			<g><path d="M3.47308 10.8536L8.89869 15.9504C9.05726 16.0993 9.13654 16.1738 9.22612 16.204C9.3158 16.2341 9.4129 16.2341 9.50258 16.204C9.59215 16.1738 9.67144 16.0993 9.83 15.9504L15.2556 10.8536C16.7822 9.41956 16.9675 7.05973 15.6836 5.40493L15.4422 5.09377C13.9063 3.11416 10.8234 3.44615 9.74413 5.70738C9.59168 6.02679 9.13701 6.02679 8.98457 5.70738C7.90534 3.44615 4.82238 3.11416 3.28647 5.09377L3.04506 5.40492C1.76116 7.05972 1.94654 9.41956 3.47308 10.8536Z" stroke-width="1.62317"/></g>
+		</symbol>
+		<symbol id="mail-icon" viewBox="0 0 15 12">
+			<g><g><path  d="M12.489.28c1.343 0 2.432 1.107 2.432 2.473v6.594c0 1.365-1.089 2.472-2.432 2.472H2.762C1.419 11.82.33 10.712.33 9.347V2.753C.33 1.387 1.419.28 2.762.28zM1.951 3.12l5.674 3.606L13.3 3.12v-.367a.818.818 0 0 0-.811-.825H2.762a.817.817 0 0 0-.81.825zm0 1.944v4.283c0 .455.363.824.81.824h9.728c.448 0 .81-.37.81-.824V5.064L8.056 8.397l-.43.273-.43-.273z"/></g></g>
+		</symbol>
+		<symbol id="horn-icon" viewBox="0 0 15 15">
+			<g><g><path  d="M8.436 4.913v3.134H3.572c-.895 0-1.62-.702-1.62-1.567s.725-1.567 1.62-1.567zM13.3 11.18l-3.243-2.35v-4.7L13.3 1.78zM3.572 3.346C1.782 3.346.33 4.75.33 6.48c0 1.73 1.452 3.133 3.242 3.133h1.622v3.917c0 .433.363.784.81.784.448 0 .81-.351.81-.784V9.613h1.622l3.89 2.82c1.07.775 2.595.038 2.595-1.253v-9.4c0-1.291-1.525-2.028-2.594-1.254l-3.891 2.82z"/></g></g>
+		</symbol>
+	</svg>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__inner">
+					<div class="header__head">
+						<div class="burger">
+							<span class="burger__item"></span>
+						</div>
+						<a href="/" class="header__logo logo">
+							<img src="assets/images/logo.svg" alt="">
+						</a>
+						<div class="header-menu">
+							<div class="header-menu__head">
+								<div class="header-menu__logo logo">
+									<img src="assets/images/logo-green.png" alt="">
+								</div>
+								<a href="#" class="header-menu__close">
+									<img src="assets/images/close.png" alt="">
+								</a>
+							</div>
+							<div class="profile-box profile-box_black">
+								<div class="profile-box__icon">
+									<span>В</span>
+								</div>
+								<div class="profile-box__info">
+									<a href="#" class="profile-box__name">Вадим Коверда</a>
+									<div class="profile-box__mail">vadim.koverda@ecopolimer.ltd</div>
+								</div>
+							</div><!--/profile-box-->
+							<div class="header-menu__links">
+									<a href="#" class="header-menu__link">
+										<span class="header-menu__link-icon active"><img src="assets/images/mail-icon.svg" alt=""></span>
+										<span>Почта</span>
+									</a>
+									<a href="#" class="header-menu__link">
+										<span class="header-menu__link-icon active"><img src="assets/images/horn-icon.svg" alt=""></span>
+										<span>Объявления</span>
+									</a>
+									<a href="#" class="header-menu__link">
+										<span class="header-menu__link-icon"><img src="assets/images/heart-icon.png" alt=""></span>
+										<span>Избранное</span>
+									</a>
+							</div>
+							<div class="header-menu__item">
+								<a href="#" class="header-menu__link">
+									<span class="header-menu__link-icon"><img src="assets/images/category-icon.png" alt=""></span>
+									<span>Категории</span>
+								</a>
+							</div>
+							<div class="header-menu__item">
+								<div class="header-menu__title">RECYCLEX</div>
+								<div class="header-menu__list">
+									<a href="#" class="header-menu__link">Recyclex клуб</a>
+									<a href="#" class="header-menu__link">Условия участия</a>
+									<a href="#" class="header-menu__link">Сотрудничество</a>
+									<a href="#" class="header-menu__link">Общая информация</a>
+									<a href="#" class="header-menu__link">Вакансии</a>
+								</div>
+							</div><!--/header-menu__item-->
+							<div class="header-menu__item header-menu__item_open">
+								<div class="header-menu__title">Сотрудничество</div>
+								<div class="header-menu__list">
+									<a href="#" class="header-menu__link">Recyclex клуб</a>
+									<a href="#" class="header-menu__link">Условия участия</a>
+									<a href="#" class="header-menu__link">Сотрудничество</a>
+									<a href="#" class="header-menu__link">Общая информация</a>
+									<a href="#" class="header-menu__link">Вакансии</a>
+								</div>
+							</div><!--/header-menu__item-->
+							<div class="header-menu__item header-menu__item_open">
+								<div class="header-menu__title">Сервисы</div>
+								<div class="header-menu__list">
+									<a href="#" class="header-menu__link">Recyclex клуб</a>
+									<a href="#" class="header-menu__link">Условия участия</a>
+									<a href="#" class="header-menu__link">Сотрудничество</a>
+									<a href="#" class="header-menu__link">Общая информация</a>
+									<a href="#" class="header-menu__link">Вакансии</a>
+								</div>
+							</div><!--/header-menu__item-->
+							<div class="header-menu__item header-menu__item_open">
+								<div class="header-menu__title">Безопасность </div>
+								<div class="header-menu__list">
+									<a href="#" class="header-menu__link">Recyclex клуб</a>
+									<a href="#" class="header-menu__link">Условия участия</a>
+									<a href="#" class="header-menu__link">Сотрудничество</a>
+									<a href="#" class="header-menu__link">Общая информация</a>
+									<a href="#" class="header-menu__link">Вакансии</a>
+								</div>
+							</div><!--/header-menu__item-->
+							<div class="header-menu__item ">
+								<div class="header-menu__title">Ищи нас в социальных сетях! </div>
+								<div class="header-menu-social">
+									<a href="#" class="header-menu-social__icon">
+										<img src="assets/images/inst.png" alt="">
+									</a>
+									<a href="#" class="header-menu-social__icon">
+										<img src="assets/images/telegram.png" alt="">
+									</a>
+									<a href="#" class="header-menu-social__icon">
+										<img src="assets/images/whatsapp.png" alt="">
+									</a>
+								</div>	
+							</div>
+							<div class="header-menu__links">
+								<a href="#" class="header-menu__link">Настройки</a>
+								<a href="#" class="header-menu__link">Выйти</a>
+							</div>
+						</div><!--/header-menu-->
+					</div>
+					<div class="header__search">
+						<form action="#">
+							<select>
+								<option value="1">Все категории</option>
+								<option value="2">Пластик</option>
+								<option value="3">Макулатура</option>
+								<option value="4">Стекло</option>
+							</select>
+							<input type="search" placeholder="Я ищу… ">
+							<button>Найти</button>
+						</form>
+					</div>
+					<div class="header__buttons">
+						<a href="#" class="btn-orange">Разместить предложение</a>
+						<a href="#" class="profile"><img src="assets/images/profile.svg" alt=""></a>
+						<div class="profile-card">
+							<div class="profile-box">
+								<div class="profile-box__icon">
+									<span>В</span>
+								</div>
+								<div class="profile-box__info">
+									<a href="#" class="profile-box__name">Вадим Коверда</a>
+									<div class="profile-box__mail">vadim.koverda@ecopolimer.ltd</div>
+								</div>
+							</div><!--/profile-box-->
+							<div class="profile-card__item">
+								<div class="profile-card-info">
+									<div class="profile-card-info__item">
+										<div class="profile-card-info__desc">Тариф</div>
+										<a href="#" class="profile-card-info__tarif">Золотой</a>
+										<div class="profile-card-info__desc">до 12.10.2021</div>
+									</div>
+									<div class="profile-card-info__item">
+										<div class="profile-card-info__desc">Баланс</div>
+										<a href="#" class="profile-card-info__balance">13 434 ₽</a>
+									</div>
+								</div>
+								<a href="#" class="profile-card__btn">Пополнить баланс</a>
+								<a href="#" class="profile-card__link">Подробнее </a>
+							</div>
+							<div class="profile-card__item">
+								<div class="profile-card-my">
+									<div class="profile-card-my__item">
+										<a href="#"></a>
+										<div class="profile-card-my__title">
+											<span class="profile-card-my__icon">
+												<svg>
+													<use xlink:href="#mail-icon"></use>
+												</svg>
+											</span>
+											<span>Почта</span>
+										</div>
+										<div class="profile-card-my__number">12</div>
+									</div><!--/profile-card-my__item-->
+									<div class="profile-card-my__item">
+										<a href="#"></a>
+										<div class="profile-card-my__title">
+											<span class="profile-card-my__icon">
+												<svg>
+													<use xlink:href="#horn-icon"></use>
+												</svg>
+											</span>
+											<span>Объявления</span>
+										</div>
+										<div class="profile-card-my__number">4</div>
+									</div><!--/profile-card-my__item-->
+									<div class="profile-card-my__item">
+										<a href="#"></a>
+										<div class="profile-card-my__title">
+											<span class="profile-card-my__icon profile-card-my__icon_heart">
+												<svg>
+													<use xlink:href="#heart-icon"></use>
+												</svg>
+											</span>
+											<span>Избранное</span>
+										</div>
+										<div class="profile-card-my__number">7</div>
+									</div><!--/profile-card-my__item-->
+								</div>
+							</div><!--/profile-card__item-->
+							<div class="profile-card__item">
+								<a href="#" class="header-menu__link">Настройки</a>
+								<a href="#" class="header-menu__link">Выйти</a>
+							</div><!--/profile-card__item-->
+						</div><!--/profile-card-->
+					</div>
+				</div>
+			</div>
+		</header><!--/header-->
+		<main class="main">
+			<div class="about">
+				<div class="container-page">
+					<div class="about__slider owl-carousel gallery">
+						<div class="about__slide">
+							<div class="about-card">
+								<div class="about-card__content">
+									<h2 class="about-card__title">Контроль качества</h2>
+									<div class="about-card__description">Небольшое описание в данном баннере, одно-два предложения.</div>
+									<a href="#" class="about-card__link">Читать подробнее </a>
+								</div>
+							</div>
+						</div><!--/about__slide-->
+						<div class="about__slide">
+							<div class="about-card about-card_blue">
+								<div class="about-card__content">
+									<h2 class="about-card__title">Логистика</h2>
+									<div class="about-card__description">Небольшое описание в данном баннере, одно-два предложения.</div>
+									<a href="#" class="about-card__link">Читать подробнее </a>
+								</div>
+							</div>
+						</div><!--/about__slide-->
+						<div class="about__slide">
+							<div class="about-card about-card_yellow">
+								<div class="about-card__content">
+									<h2 class="about-card__title">Некая акция</h2>
+									<div class="about-card__description">Небольшое описание в данном баннере, одно-два предложения.</div>
+									<a href="#" class="about-card__link">Читать подробнее </a>
+								</div>
+							</div>
+						</div><!--/about__slide-->
+						<div class="about__slide">
+							<div class="about-card about-card_blue">
+								<div class="about-card__content">
+									<h2 class="about-card__title">Логистика</h2>
+									<div class="about-card__description">Небольшое описание в данном баннере, одно-два предложения.</div>
+									<a href="#" class="about-card__link">Читать подробнее </a>
+								</div>
+							</div>
+						</div><!--/about__slide-->
+						<div class="about__slide">
+							<div class="about-card about-card_yellow">
+								<div class="about-card__content">
+									<h2 class="about-card__title">Некая акция</h2>
+									<div class="about-card__description">Небольшое описание в данном баннере, одно-два предложения.</div>
+									<a href="#" class="about-card__link">Читать подробнее </a>
+								</div>
+							</div>
+						</div><!--/about__slide-->
+					</div><!--/about__slider-->
+				</div>
+				<div class="about-material">
+					<div class="container">
+						<div class="about-material__inner">
+							<div class="about-material__item">
+								<div class="about-material__icon">
+									<img src="assets/images/materia-icon_1.svg" alt="">
+								</div>
+								<div class="about-material__name">Пластик</div>
+							</div><!--/about-material__item-->
+							<div class="about-material__item">
+								<a href="#" class="about-material__link"></a>
+								<div class="about-material__icon">
+									<img src="assets/images/materia-icon_2.svg" alt="">
+								</div>
+								<div class="about-material__name">Макулатура</div>
+							</div><!--/about-material__item-->
+							<div class="about-material__item">
+								<a href="#" class="about-material__link"></a>
+								<div class="about-material__icon">
+									<img src="assets/images/materia-icon_3.svg" alt="">
+								</div>
+								<div class="about-material__name">Стекло</div>
+							</div><!--/about-material__item-->
+							<div class="about-material__item">
+								<a href="#" class="about-material__link"></a>
+								<div class="about-material__icon">
+									<img src="assets/images/materia-icon_4.svg" alt="">
+								</div>
+								<div class="about-material__name">Металл</div>
+							</div><!--/about-material__item-->
+							<div class="about-material__item">
+								<a href="#" class="about-material__link"></a>
+								<div class="about-material__icon">
+									<img src="assets/images/materia-icon_5.svg" alt="">
+								</div>
+								<div class="about-material__name">Резина</div>
+							</div><!--/about-material__item-->
+							<div class="about-material__item">
+								<a href="#" class="about-material__link"></a>
+								<div class="about-material__icon">
+									<img src="assets/images/materia-icon_6.svg" alt="">
+								</div>
+								<div class="about-material__name">ПЭТ Бутылка</div>
+							</div><!--/about-material__item-->
+							<div class="about-material__item">
+								<a href="#" class="about-material__link"></a>
+								<div class="about-material__icon">
+									<img src="assets/images/materia-icon_7.svg" alt="">
+								</div>
+								<div class="about-material__name">ПВХ Гранулы</div>
+							</div><!--/about-material__item-->
+							<div class="about-material__item">
+								<a href="#" class="about-material__link"></a>
+								<div class="about-material__icon">
+									<img src="assets/images/materia-icon_8.png" alt="">
+								</div>
+								<div class="about-material__name">ПЭТ Хлопья</div>
+							</div><!--/about-material__item-->
+						</div>
+					</div>
+				</div><!--/about-material-->
+			</div><!--/about-->
+			<div class="offers">
+				<section class="offers__section offers__best">
+					<div class="container">
+						<h2 class="title-section title-section_white">Лучшие предложения</h2>
+					</div>
+					<div class="offers__slider-wrapper">
+					<div class="container">
+						<div class="offers__inner">
+							<div class="slider-arrows">
+									<div class="slider-arrow slider-arrow_prev">
+										<img src="assets/images/slider-arrow.svg" alt="">
+									</div>
+									<div class="slider-arrow slider-arrow_next">
+										<img src="assets/images/slider-arrow.svg" alt="">
+									</div>
+							</div>
+							<div class="offers__slider offers__slider_best">
+								<div class="offers__slide">
+									<div class="offers-card">
+										<div class="offers-card__photo">
+											<a href="#">
+												<img src="assets/images/offers_1.png" alt="">
+											</a>
+											<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" class="active">
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+											</div><!--/offers-card-about-->
+										</div>
+										<div class="offers-card__content">
+											<div class="rating">
+                        						<div class="star-four"></div>
+                      						</div>
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_sale">Продажа</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_best">
+										<div class="offers-card__photo">
+											<a href="#">
+												<img src="assets/images/offers_1.png" alt="">
+											</a>
+											<div class="offers-card-about">
+												
+												<div class="offers-card-about__favourites">													
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+											</div><!--/offers-card-about-->
+											<div class="offers-card__best">топ</div>
+										</div>
+										<div class="offers-card__content">
+											<div class="rating">
+                        						<div class="star-four"></div>
+                      						</div>
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_buy">Покупка</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card">
+										<div class="offers-card__photo">
+											<a href="#">
+												<img src="assets/images/offers_1.png" alt="">
+											</a>
+											<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+											</div><!--/offers-card-about-->
+											<div class="offers-card__best">топ</div>
+										</div>
+										<div class="offers-card__content">
+											<div class="rating">
+                        						<div class="star-four"></div>
+                      						</div>
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_buy">Покупка</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card">
+										<div class="offers-card__photo">
+											<a href="#">
+												<img src="assets/images/offers_1.png" alt="">
+											</a>
+											<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+											</div><!--/offers-card-about-->
+											<div class="offers-card__best">топ</div>
+										</div>
+										<div class="offers-card__content">
+											<div class="rating">
+                        						<div class="star-four"></div>
+                      						</div>
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_buy">Покупка</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_best">
+										<div class="offers-card__photo">
+											<a href="#">
+												<img src="assets/images/offers_1.png" alt="">
+											</a>
+											<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+											</div><!--/offers-card-about-->
+											<div class="offers-card__best">топ</div>
+										</div>
+										<div class="offers-card__content">
+											<div class="rating">
+                        						<div class="star-four"></div>
+                      						</div>
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_buy">Покупка</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card">
+										<div class="offers-card__photo">
+											<a href="#">
+												<img src="assets/images/offers_1.png" alt="">
+											</a>
+											<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+											</div><!--/offers-card-about-->
+											<div class="offers-card__best">топ</div>
+										</div>
+										<div class="offers-card__content">
+											<div class="rating">
+                        						<div class="star-four"></div>
+                      						</div>
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_buy">Покупка</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_best">
+										<div class="offers-card__photo">
+											<a href="#">
+												<img src="assets/images/offers_1.png" alt="">
+											</a>
+											<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+											</div><!--/offers-card-about-->
+											<div class="offers-card__best">топ</div>
+										</div>
+										<div class="offers-card__content">
+											<div class="rating">
+                        						<div class="star-four"></div>
+                      						</div>
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_buy">Покупка</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+							</div><!--/"offers__slider-->
+						</div>
+						</div>
+					</div>
+				</section><!--/offers__best-->
+				<section class="offers__section offers__last">
+					<div class="container">
+						<h2 class="title-section">Недавние предложения</h2>
+					</div>
+					<div class="offers__slider-wrapper">
+					<div class="container">
+						<div class="offers__inner">
+							<div class="slider-arrows">
+									<div class="slider-arrow slider-arrow_prev">
+										<img src="assets/images/slider-arrow.svg" alt="">
+									</div>
+									<div class="slider-arrow slider-arrow_next">
+										<img src="assets/images/slider-arrow.svg" alt="">
+									</div>
+							</div>
+							<div class="offers__slider offers__slider_last">
+								<div class="offers__slide">
+									<div class="offers-card offers-card_last">
+										<div class="offers-card__photo-bg">
+											<img src="assets/images/offers_1.png" alt="">
+										</div>
+										<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+										</div><!--/offers-card-about-->
+										<div class="offers-card__content">
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_sale">Продажа</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_last">
+										<div class="offers-card__photo-bg">
+											<img src="assets/images/offers_1.png" alt="">
+										</div>
+										<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+										</div><!--/offers-card-about-->
+										<div class="offers-card__content">
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_sale">Продажа</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_last">
+										<div class="offers-card__photo-bg">
+											<img src="assets/images/offers_1.png" alt="">
+										</div>
+										<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+										</div><!--/offers-card-about-->
+										<div class="offers-card__content">
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_sale">Продажа</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_last">
+										<div class="offers-card__photo-bg">
+											<img src="assets/images/offers_1.png" alt="">
+										</div>
+										<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+										</div><!--/offers-card-about-->
+										<div class="offers-card__content">
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_sale">Продажа</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_last">
+										<div class="offers-card__photo-bg">
+											<img src="assets/images/offers_1.png" alt="">
+										</div>
+										<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+										</div><!--/offers-card-about-->
+										<div class="offers-card__content">
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_sale">Продажа</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_last">
+										<div class="offers-card__photo-bg">
+											<img src="assets/images/offers_1.png" alt="">
+										</div>
+										<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+										</div><!--/offers-card-about-->
+										<div class="offers-card__content">
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_sale">Продажа</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_last">
+										<div class="offers-card__photo-bg">
+											<img src="assets/images/offers_1.png" alt="">
+										</div>
+										<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+										</div><!--/offers-card-about-->
+										<div class="offers-card__content">
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_sale">Продажа</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+								<div class="offers__slide">
+									<div class="offers-card offers-card_last">
+										<div class="offers-card__photo-bg">
+											<img src="assets/images/offers_1.png" alt="">
+										</div>
+										<div class="offers-card-about">
+												<div class="offers-card-about__favourites">
+													<a href="#" >
+														<span></span>
+													</a>
+												</div>
+												<div class="offers-card-about__material">
+													<img src="assets/images/pet.png" alt="">
+												</div>
+										</div><!--/offers-card-about-->
+										<div class="offers-card__content">
+                      						<h3 class="offers-card__title">
+                      							<a href="#">ПЭТ бутылка  прессованная, 500 кг.</a>
+                      						</h3>
+                      						<div class="offers-card__price">
+                      							<div class="offers-card__price_unit">70 руб/кг</div>
+                      							<div class="offers-card__price_all">(35 000 руб)</div>
+                      						</div>
+                      						<div class="offers-card__info">
+                      							<div class="offers-card__data">
+                      								<div>Сочи, р-н Адлерский</div>
+                      								<div>Вчера 19:05</div>
+                      							</div>
+                      							<div class="offers-card__action offers-card__action_sale">Продажа</div>
+                      						</div>
+										</div>
+									</div><!--/offers-card-->
+								</div><!--/"offers__slide-->
+							</div><!--/"offers__slider-->
+						</div>
+					</div>
+					</div>
+				</section>
+			</div><!--/offers-->
+			<div class="feedback">
+				<div class="container-page">
+					<div class="reviews-wrapper">
+					<section class="reviews">
+						<div class="reviews__inner">
+							<h2 class="reviews__title">Отзывы</h2>
+							<div class="reviews__slider">
+								<div class="reviews__slide">
+									<div class="reviews-card">
+										<div class="reviews-card__autor-wrapper">
+											<div class="reviews-card__autor">
+												<div class="reviews-card__name">Вадим Коверда</div>
+												<div class="reviews-card__prof">Директор</div>
+												<div class="reviews-card__company">ООО “Экополимер”</div>
+												<div class="reviews-card__photo">
+													<img src="assets/images/reviews-autor.png" alt="">
+												</div>
+											</div><!--/reviews-card__autor-->
+										</div>
+										<div class="reviews-card__review">
+											<div class="reviews-card__text">
+												Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+											</div>
+											<div class="reviews-card__star">
+												<div class="rating">
+                        							<div class="star-five-half"></div>
+                      							</div>
+											</div>
+										</div>
+									</div><!--/reviews-card-->
+								</div><!--/reviews__slide-->
+								<div class="reviews__slide">
+									<div class="reviews-card">
+										<div class="reviews-card__autor-wrapper">
+											<div class="reviews-card__autor">
+												<div class="reviews-card__name">Вадим Коверда</div>
+												<div class="reviews-card__prof">Директор</div>
+												<div class="reviews-card__company">ООО “Экополимер”</div>
+												<div class="reviews-card__photo">
+													<img src="assets/images/reviews-autor.png" alt="">
+												</div>
+											</div><!--/reviews-card__autor-->
+										</div>
+										<div class="reviews-card__review">
+											<div class="reviews-card__text">
+												Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+											</div>
+											<div class="reviews-card__star">
+												<div class="rating">
+                        							<div class="star-four"></div>
+                      							</div>
+											</div>
+										</div>
+									</div><!--/reviews-card-->
+								</div><!--/reviews__slide-->
+								<div class="reviews__slide">
+									<div class="reviews-card">
+										<div class="reviews-card__autor-wrapper">
+											<div class="reviews-card__autor">
+												<div class="reviews-card__name">Вадим Коверда</div>
+												<div class="reviews-card__prof">Директор</div>
+												<div class="reviews-card__company">ООО “Экополимер”</div>
+												<div class="reviews-card__photo">
+													<img src="assets/images/reviews-autor.png" alt="">
+												</div>
+											</div><!--/reviews-card__autor-->
+										</div>
+										<div class="reviews-card__review">
+											<div class="reviews-card__text">
+												Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+											</div>
+											<div class="reviews-card__star">
+												<div class="rating">
+                        							<div class="star-four-half"></div>
+                      							</div>
+											</div>
+										</div>
+									</div><!--/reviews-card-->
+								</div><!--/reviews__slide-->
+								<div class="reviews__slide">
+									<div class="reviews-card">
+										<div class="reviews-card__autor-wrapper">
+											<div class="reviews-card__autor">
+												<div class="reviews-card__name">Вадим Коверда</div>
+												<div class="reviews-card__prof">Директор</div>
+												<div class="reviews-card__company">ООО “Экополимер”</div>
+												<div class="reviews-card__photo">
+													<img src="assets/images/reviews-autor.png" alt="">
+												</div>
+											</div><!--/reviews-card__autor-->
+										</div>
+										<div class="reviews-card__review">
+											<div class="reviews-card__text">
+												Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+											</div>
+											<div class="reviews-card__star">
+												<div class="rating">
+                        							<div class="star-five-half"></div>
+                      							</div>
+											</div>
+										</div>
+									</div><!--/reviews-card-->
+								</div><!--/reviews__slide-->
+								<div class="reviews__slide">
+									<div class="reviews-card">
+										<div class="reviews-card__autor-wrapper">
+											<div class="reviews-card__autor">
+												<div class="reviews-card__name">Вадим Коверда</div>
+												<div class="reviews-card__prof">Директор</div>
+												<div class="reviews-card__company">ООО “Экополимер”</div>
+												<div class="reviews-card__photo">
+													<img src="assets/images/reviews-autor.png" alt="">
+												</div>
+											</div><!--/reviews-card__autor-->
+										</div>
+										<div class="reviews-card__review">
+											<div class="reviews-card__text">
+												Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+											</div>
+											<div class="reviews-card__star">
+												<div class="rating">
+                        							<div class="star-five-half"></div>
+                      							</div>
+											</div>
+										</div>
+									</div><!--/reviews-card-->
+								</div><!--/reviews__slide-->
+							</div>
+						</div>
+					</section><!--/reviews-->
+					<section class="faq">
+						<h2 class="faq__title">Важные<br> вопросы</h2>
+						<div class="faq__inner">
+							<div class="faq__item">
+								<div class="faq__question">Как зарегистрироваться?</div>
+								<div class="faq__answer">
+									Чтобы зарегистрироваться...
+								</div>
+							</div><!--/faq__item-->
+							<div class="faq__item">
+								<div class="faq__question">Что такое RECYCLEX?</div>
+								<div class="faq__answer">
+									Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+								</div>
+							</div><!--/faq__item-->
+							<div class="faq__item">
+								<div class="faq__question">Нет доступа к личному кабинету?</div>
+								<div class="faq__answer">
+									Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+								</div>
+							</div><!--/faq__item-->
+							<div class="faq__item">
+								<div class="faq__question">Как пройти верификацию?</div>
+								<div class="faq__answer">
+									Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+								</div>
+							</div><!--/faq__item-->
+							<div class="faq__item">
+								<div class="faq__question">Как заказать логистику?</div>
+								<div class="faq__answer">
+									Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+								</div>
+							</div><!--/faq__item-->
+							<div class="faq__item">
+								<div class="faq__question">Как восстановить пароль?</div>
+								<div class="faq__answer">
+									Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+								</div>
+							</div><!--/faq__item-->
+							<div class="faq__item">
+								<div class="faq__question">Как настроить уведомления?</div>
+								<div class="faq__answer">
+									Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+								</div>
+							</div><!--/faq__item-->
+							<div class="faq__item">
+								<div class="faq__question">Как  поменять тему сайта?</div>
+								<div class="faq__answer">
+									Это лучший проект, который я когда-либо видел! Спасибо огромное команде RECYCLEX за такую кропотливую работу! Успеха Вам в дальнейшем продвижении!!!
+								</div>
+							</div><!--/faq__item-->
+						</div>
+					</section><!--/faq-->
+					</div>
+				</div>
+			</div><!--/feedback-->
+			<section class="news">
+				<div class="container">
+					<h2 class="title-section">Новости</h2>
+					<div class="news__inner">
+						<div class="news__col">
+							<a href="#" class="news__photo">
+								<img src="assets/images/news-photo.png" alt="">
+							</a>
+						</div>
+						<div class="news__col">
+							<div class="news-item">
+								<div class="news-item__photo">
+									<img src="assets/images/news-photo_2.png" alt="">
+								</div>
+								<a href="#" class="news-item__title">ООПТным путем: свалки в заповедниках ликвидируют до 2025 года</a>
+							</div><!--/news-item-->
+							<div class="news-item">
+								<a href="#" class="news-item__title">Доверяй, но проверяй: как создать безопасное объявление?</a>
+								<div class="news-item__photo">
+									<img src="assets/images/news-photo_3.png" alt="">
+								</div>
+							</div><!--/news-item-->
+						</div>
+					</div>
+				</div>
+			</section><!--/news-->
+			<section class="partners">
+				<div class="container-big">
+					<h2 class="partners__title">Наши партнёры:</h2>
+					<div class="partners__inner">
+						<div class="partners__item">
+							<a href="#">
+								<img src="assets/images/partner_1.png" alt="">
+							</a>
+						</div>
+						<div class="partners__item">
+							<a href="#">
+								<img src="assets/images/partner_2.png" alt="">
+							</a>
+						</div>
+						<div class="partners__item">
+							<a href="#">
+								<img src="assets/images/partner_3.png" alt="">
+							</a>
+						</div>
+						<div class="partners__item">
+							<a href="#">
+								<img src="assets/images/partner_4.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-menu">
+					<div class="footer-menu__col">
+						<h3 class="footer-menu__title">Recyclex</h3>
+						<ul class="footer-menu__list">
+							<li><a href="#">Каталог участников</a></li>
+							<li><a href="#">Условия участия</a></li>
+							<li><a href="#">Общая информация</a></li>
+							<li><a href="#">Вакансии</a></li>
+						</ul>
+					</div><!--/footer-menu__col-->
+					<div class="footer-menu__col">
+						<h3 class="footer-menu__title">Сотрудничество</h3>
+						<ul class="footer-menu__list">
+							<li><a href="#">Партнерам</a></li>
+							<li><a href="#">Инвесторам</a></li>
+							<li><a href="#">Условия оказания услуг</a></li>
+							<li><a href="#">Условия использования сайтов</a></li>
+						</ul>
+					</div><!--/footer-menu__col-->
+					<div class="footer-menu__col">
+						<h3 class="footer-menu__title">Сервисы</h3>
+						<ul class="footer-menu__list">
+							<li><a href="#">Контроль качества</a></li>
+							<li><a href="#">Контроль доставки</a></li>
+							<li><a href="#">Контроль платежей</a></li>
+							<li><a href="#">Повышение квалификации</a></li>
+						</ul>
+					</div><!--/footer-menu__col-->
+					<div class="footer-menu__col">
+						<h3 class="footer-menu__title">Безопасность</h3>
+						<ul class="footer-menu__list">
+							<li><a href="#">Публичная оферта</a></li>
+							<li><a href="#">Защита персональных данных</a></li>
+							<li><a href="#">Этика и комплаенс</a></li>
+						</ul>
+					</div><!--/footer-menu__col-->
+				</div><!--/footer-menu-->
+				<div class="footer__inner">
+					<a href="/" class="footer__logo logo">
+						<img src="assets/images/logo.svg" alt="">
+					</a>
+					<div class="footer-social">
+						<a href="#" class="footer-social__icon">
+							<img src="assets/images/insta-icon.svg" alt="">
+						</a>
+						<a href="#" class="footer-social__icon">
+							<img src="assets/images/telegram-icon.svg" alt="">
+						</a>
+						<a href="#" class="footer-social__icon">
+							<img src="assets/images/whatsapp-icon.png" alt="">
+						</a>
+					</div><!--/footer-social-->
+					<div class="footer__copyright">© 2021 ИП Коверда Вадим Николаевич</div>
+					<div class="footer__links">
+						<a href="#" class="footer__link">Соглашение об обработке персональных данных</a>
+						<a href="#" class="footer__link">Служба поддержки</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
